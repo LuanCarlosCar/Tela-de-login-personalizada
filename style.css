@@ -1,0 +1,109 @@
+@font-face {
+	font-family: Comfortaa;
+	src: url(./Comfortaa/Comfortaa-Bold.ttf)
+}
+
+
+Body{
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+    
+background-image: url("ttt.jpg");
+    background-repeat: no-repeat;
+    
+    font-family: Comfortaa, sans-serif;
+}
+div{
+width: 250px;
+height: 350px;
+ padding: 40px;
+ border: 2px solid #000;
+ color: #fff;
+ background-color: rgba(0, 0, 5, 0.8);
+ top: 90px;
+ right: 500px;
+position: absolute;
+border-radius: 80px 0 80px 0;
+margin-top: 55px;
+
+
+
+}
+.icone{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px; /* depois arrumar */
+    left: 120px;
+   
+}
+
+
+
+h1{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+}
+.box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    line-height: 39px;
+   
+}
+.icon input{
+    width: 100%;
+    margin-bottom: 21px;
+}
+.box input[type="email"],.box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40xp;
+    color: white;
+    font-size: 16px;
+    display: block;
+    padding:  14px 0 14px 0;
+    width: 100%;
+}
+.box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100%;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: .2s;
+margin: 20px 0 20px 0;
+}
+.box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: .2s;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    transition: .2s;
+    color: #4b4b44;
+}
+a:hover{
+    transition: .2s;
+    color: #ff4d4d;
+
+}
+div:hover{
+    box-shadow: 0 0 1em gold;
+}
